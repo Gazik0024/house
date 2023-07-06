@@ -1,0 +1,324 @@
+.header {
+    padding-top: 30px;
+    padding-bottom: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 840px;
+    background-image: url('./../img/heder/Rectangle.png');
+    color: white;
+
+     a {
+        color: white;
+     }
+}
+
+h2 {
+    color: white;
+}
+
+.header_top-row {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+     font-size: 14px;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 40px;
+}
+
+.header__title {
+    position: relative;
+    text-align: center;
+    font-size: 48px;
+    color: goldenrod;
+    font-weight: 700;
+    padding-bottom: 121px;
+}
+
+
+.header__title-icon {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.info {
+    position: relative;
+    font-size: 18px;
+    padding-left: 35px;
+
+    &::before {
+        content: "";
+
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 21px;
+        height: 21px;
+
+
+        background-image: url('./../img/Group.svg');
+        background-repeat: no-repeat;
+    }
+
+    &-tel::before {
+        content: "";
+        
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 21px;
+        height: 21px;
+        
+        
+        background-image: url('./../img/phone.svg');
+        background-repeat: no-repeat;
+    }
+}
+
+.header__footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+
+.text-right {
+    text-align: right;
+}
+
+
+.benefits {
+    position: relative;
+    padding: 120px 0;
+
+    &::after {
+        content: 'II';
+
+        position: absolute;
+        top: 0;
+        left: calc(50% + 555px);
+        transform: translate(-50%, 0%);
+        line-height: auto;
+        opacity: 0.02;
+
+        font-size: 400px;
+
+    }
+}
+
+.benefits_row {
+    display: flex;
+    column-gap: 70px;
+}
+
+.benefits_item{
+    text-align: center;
+}
+
+.benefits_item-img {
+    margin-bottom: 53px;
+
+}
+
+.benefits_item-text {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 300;
+}
+
+
+
+.appartments-title {
+    margin-bottom: 88px;
+
+
+   
+}
+
+.title-2 {
+     font-size: 36px;
+     color: goldenrod;
+     font-weight: 700;
+ }
+
+.appartments-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+
+.card {
+    position: relative;
+    display: inline-block;
+}
+
+.card-title {
+    position: absolute;
+    left: 50px;
+    right: 20px;
+    bottom: 44px;
+}
+
+
+.cta {
+     padding: 180px 0;
+     background-image: url('./../img/Rectangle.jpg');
+}
+
+.cta-title {
+    margin-bottom: 17px;
+}
+
+.cta_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+
+}
+
+.cta_text {
+    line-height: 1.5;
+
+
+    p + p {
+        margin-top: 1em;
+    }
+}
+
+
+
+.form-input {
+    height: 50px;
+    padding: 12px;
+    text-align: center;
+    background-color:  rgba(255, 255, 255, 0.2);
+}
+
+.form-private {
+    font-size: 14px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.form-btn {
+    height: 50px;
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    background-color: goldenrod;
+
+}
+
+
+.cta_form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px 30px;
+}
+
+
+.video {
+    text-align: center;
+}
+
+
+.video-link {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+
+
+.video-icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.map {
+ padding: 180px 0;
+}
+
+.map-title {
+ margin-bottom: 88px;
+}
+
+
+
+.map-2 {
+    background: rgb(37, 42, 42);
+    height: 358px;
+}
+
+
+.feadback {
+ padding-bottom: 180px;
+}
+
+.fead-title {
+    margin-bottom: 38px;
+}
+
+
+.fead-form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    align-items: center;
+}
+
+
+.footer {
+    background-color: rgb(39, 38, 38);
+    padding-top: 72px;
+    padding-bottom: 51px;
+    font-size: 14px;
+    letter-spacing: 0.05rem;
+}
+
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.footer-logo{
+    margin-top: -12px;
+}
+
+.footer-nav {
+
+}
+
+
+.footer-addres {
+
+}
+
+.footer-nav-list {
+    display: grid;
+    gap: 15px;
+}
+
+
+.social {
+    margin-top: 20px;
+    display: flex;
+    column-gap: 22px;
+    align-items: center;
+}
